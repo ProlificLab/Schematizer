@@ -1,0 +1,33 @@
+{
+    "name": "Schematizer",
+    "preferGlobal": "true",
+    "version": "0.0.1",
+    "author": "Prolific Lab <contact@prolificlab.com>",
+    "description": "A module to create server and client side schema from json files.",
+    "contributors": [
+        {
+            "name": "Christophe Harrer",
+            "email": "c.harrer@prolificlab.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ProlificLab/Schematizer.git"
+    },
+    "keywords": [
+        "schema",
+        "storage",
+        "model",
+        "database"
+    ],
+    "dependencies" : {
+        "mongoose"          : ">0.0.1",
+        "async"             : ">0.0.1",
+        "underscore"        : ">0.0.1",
+        "underscore.string" : ">0.0.1"
+    },
+    "license": "MIT",
+    "engine": {
+        "node": ">=0.8"
+    }
+}
